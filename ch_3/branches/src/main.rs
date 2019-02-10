@@ -1,7 +1,9 @@
 fn main() {
+// let s1 = String::from("hello");
+// let s2 = s1.clone();
+let x = 5;
+let y = x;
 
-   for number in (1..4).rev() {
-        println!("{}!", number);
-    }
-    println!("LIFTOFF!!!");
+//println!("s1 = {}, s2 = {}", s1, s2);
+println!("x = {}, y = {}", x, y);
 }
