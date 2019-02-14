@@ -6,6 +6,10 @@ struct Rectangle {
 }
 
 impl Rectangle {
+    fn square(size: u32) -> Rectangle {
+        Rectangle {width: size, height: size}
+    }
+
     fn area(&self) -> u32 {
         self.width * self.height
     } 
